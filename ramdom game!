@@ -1,0 +1,14 @@
+from random import randint, random
+for x in range(1,6):
+
+    gas = int(input("Enter Uar gass nameb^1/6> "))
+
+    rado = randint(1,5)
+
+    if gas == rado:
+        print("U Go on!")
+    else:
+        print("U not Go!")
+
+    # You are rendom namebr  in 
+        print("You rendom namebr:",rado)
