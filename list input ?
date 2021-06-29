@@ -1,0 +1,8 @@
+usr = input("Enter the simple dettls for user> ") # list usger >>
+
+list = usr.split() # lsit:>10,20,30,40,50
+sum = 0
+for x in list:
+    sum = sum + int(x)
+print(sum)
+
