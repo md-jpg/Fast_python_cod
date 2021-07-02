@@ -1,0 +1,7 @@
+def fans(n):
+    po = 1
+    for x in range(1,n+1):
+        po = po * x
+    return po
+oiioi = fans(5)
+print(oiioi)
