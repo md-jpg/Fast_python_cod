@@ -1,0 +1,16 @@
+class triangle:
+
+    def __init__(self,base,hight):
+        pass
+        self.base = base
+        self.hight = hight
+
+    def calcolter(self):
+        area = 0.5 * self.base * self.hight
+        print("Area> ",area)
+
+nam1 = triangle(20,50)
+nam1.calcolter()
+
+nam2 = triangle(40,80) 
+nam2.calcolter()
