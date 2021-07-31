@@ -1,0 +1,39 @@
+
+
+import turtle
+bd = turtle.Turtle()
+bs = turtle.Screen()
+bd.speed(1)
+bs.bgcolor("black")
+bd.color("red","white")
+bd.hideturtle()
+bd.fd(80)
+bd.left(90)
+bd.forward(22)
+bd.left(90)
+bd.forward(40)
+bd.right(90)
+bd.forward(140)
+bd.right(90)
+bd.forward(120)
+bd.left(90)
+bd.forward(60)
+bd.left(90)
+bd.forward(120)
+bd.right(90)
+bd.forward(15)
+bd.left(90)
+bd.forward(10)
+bd.left(90)
+bd.forward(215)
+bd.right(90)
+bd.forward(33)
+bd.left(90)
+bd.forward(22)
+bd.left(90)
+bd.forward(5)
+turtle.done()
+
+
+
+
