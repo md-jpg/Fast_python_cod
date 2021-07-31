@@ -1,0 +1,21 @@
+
+import turtle
+sub = turtle.Turtle()
+color_n = turtle.Screen()
+
+sub.begin_fill()
+sub.speed(1)
+color_n.bgcolor("black")
+sub.color("red","white")
+sub.fillcolor("yellow")
+sub.hideturtle()
+
+sub.circle(120,steps = 4)
+
+
+
+
+sub.end_fill()
+turtle.done()
+
+
