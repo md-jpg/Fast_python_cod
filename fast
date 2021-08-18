@@ -1,0 +1,13 @@
+class my_cod:
+    def my_img_dowlod_cod():
+        fast_line = requests.get(input("Past Ur Imge List:__>"))
+        name = input("Enter Uar image Name: ")
+        with open(name ,"wb") as b:
+            clake = b.write(fast_line.content)
+            print(clake)
+
+def image_name():
+    img1 = input("Entr The Chos ur Imge name: ")
+    
+
+
