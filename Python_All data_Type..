@@ -1,0 +1,51 @@
+a = "Hi!"
+print(type(a))
+
+b = int(50)
+print(type(b))
+
+c = float(5.0)
+print(type(c))
+
+d = ["css","c++"]
+print(type(d))
+
+e = ("python", "Hacker")
+print(type(e))
+
+f = range(1-11)
+print(type(f))
+
+g = {
+    1 : "css",
+    2 : "html",
+
+}
+print(type(g))
+
+
+r = {"dj", "olok"}
+print(type(r))
+
+s = frozenset({"apple", "samsung" ,"appo"})
+print(type(s))
+
+k = False
+print(type(k))
+
+l = b"Hacker"
+print(type(l))
+
+n = bytearray(10)
+print(type(n))
+
+o = memoryview(bytes(10))
+print(type(o))
+
+
+yi = 2j
+print(type(yi))
+
+
+
+
